@@ -1,0 +1,75 @@
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+
+  /*  */
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--Eggshell);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conatiner {
+  width: 600px;
+  background-color: var(--White);
+  padding: 20px;
+  border-radius: 20px;
+}
+.image {
+  width: 100%;
+}
+p {
+  color: var(--WengeBrown);
+}
+.Preparation {
+  background-color: var(--RoseWhite);
+  padding: 10px;
+  border-radius: 5px;
+}
+.Preparation h3 {
+  color: var(--DarkRaspberry);
+}
+ul {
+  padding-left: 15px;
+}
+ul li {
+  word-spacing: 1px;
+  margin-bottom: 5px;
+  color: var(--WengeBrown);
+}
+h2 {
+  color: var(--Nutmeg);
+}
+ol li {
+  margin-bottom: 5px;
+  color: var(--WengeBrown);
+  word-spacing: 1px;
+}
+hr {
+  border: solid var(--LightGrey) 1px;
+  margin: 0px;
+}
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+.tab > span {
+  width: 50%;
+  color: var(--Nutmeg);
+  font-weight: 700;
+}
+
+.tab p {
+  color: var(--WengeBrown);
+}
